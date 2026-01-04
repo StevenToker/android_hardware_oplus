@@ -352,4 +352,134 @@
             <instance>default</instance>
         </interface>
     </hal>
+<!-- Bluetooth Audio -->
+<hal format="aidl" optional="true">
+    <name>android.hardware.bluetooth.audio</name>
+    <version>4</version>
+    <interface>
+        <name>IBluetoothAudioProviderFactory</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+
+<!-- Boot Control -->
+<hal format="aidl" optional="true">
+    <name>android.hardware.boot</name>
+    <version>1</version>
+    <interface>
+        <name>IBootControl</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+
+<!-- DRM Clearkey -->
+<hal format="aidl" optional="true">
+    <name>android.hardware.drm</name>
+    <version>1</version>
+    <interface>
+        <name>IDrmFactory</name>
+        <instance>clearkey</instance>
+    </interface>
+</hal>
+
+<!-- Health -->
+<hal format="aidl" optional="true">
+    <name>android.hardware.health</name>
+    <version>3</version>
+    <interface>
+        <name>IHealth</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+
+<!-- Power -->
+<hal format="aidl" optional="true">
+    <name>android.hardware.power</name>
+    <version>4</version>
+    <interface>
+        <name>IPower</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+
+<!-- Sensors -->
+<hal format="aidl" optional="true">
+    <name>android.hardware.sensors</name>
+    <version>2</version>
+    <interface>
+        <name>ISensors</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+
+<!-- Thermal -->
+<hal format="aidl" optional="true">
+    <name>android.hardware.thermal</name>
+    <version>1</version>
+    <interface>
+        <name>IThermal</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+
+<!-- USB -->
+<hal format="aidl" optional="true">
+    <name>android.hardware.usb</name>
+    <version>1</version>
+    <interface>
+        <name>IUsb</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+
+<!-- USB Gadget -->
+<hal format="aidl" optional="true">
+    <name>android.hardware.usb.gadget</name>
+    <version>1</version>
+    <interface>
+        <name>IUsbGadget</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+
+<!-- Wi-Fi -->
+<hal format="aidl" optional="true">
+    <name>android.hardware.wifi</name>
+    <version>2</version>
+    <interface>
+        <name>IWifi</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+
+<!-- Wi-Fi Hostapd -->
+<hal format="aidl" optional="true">
+    <name>android.hardware.wifi.hostapd</name>
+    <version>2</version>
+    <interface>
+        <name>IHostapd</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+
+<!-- Wi-Fi Supplicant -->
+<hal format="aidl" optional="true">
+    <name>android.hardware.wifi.supplicant</name>
+    <version>3</version>
+    <interface>
+        <name>ISupplicant</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+
+<!-- Lineage LiveDisplay -->
+<hal format="aidl" optional="true">
+    <name>vendor.lineage.livedisplay</name>
+    <version>1</version>
+    <interface>
+        <name>IPictureAdjustment</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+    
 </compatibility-matrix>
